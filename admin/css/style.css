@@ -1,0 +1,35 @@
+.fields-section{
+	position: relative;
+	background: #fff;
+	margin: 10px 0;
+}
+.fields-section-col{
+	padding: 15px;
+	width: 46%;
+	display: inline-block;
+	vertical-align: top;
+}
+.fields-section label{
+	display: block;
+	font-weight: bold;
+}
+.fields-section input,
+.fields-section textarea{
+	margin-bottom: 5px;
+}
+.slide-image{
+	max-width: 100%;
+	height: auto;
+}
+.slide-image{
+	cursor: pointer;
+}
+.slide-image:hover{
+	opacity: .7;
+}
+/* XS */
+@media (max-width : 780px) {
+	.fields-section-col{
+		width: 100%;
+	}
+}
